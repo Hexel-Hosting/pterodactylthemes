@@ -10,12 +10,13 @@ INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
 # Print Node.js Version
-cfonts "HEXEL-HOSTING" -a center -g blue,black,white
+cfonts "HEXEL-HOSTING" -a center -g blue,white
 neofetch
 
-echo     "\033[31m DOCKER VIP BY HEXEL - HOSTING"
-echo     "\033[33m [NODEJS V17 BERHASIL TERINSTALL"
-echo     "\033[0;34m INCLUDE PACKAGE: YARN, FFMPEG, IMAGEMAGICK, PYTHON, PM2, PNPM, NODEMON, SPEEDTEST"
+echo "\033[31m" "DOCKER VIP BY HEXEL - HOSTING"
+
+echo "\033[33m" "[NODEJS V17 BERHASIL TERINSTALL"
+echo "\033[0;34m" "INCLUDE PACKAGE: YARN, FFMPEG, IMAGEMAGICK, PYTHON, PM2, PNPM, NODEMON, SPEEDTEST"
 node -v
 
 # Replace Startup Variables
