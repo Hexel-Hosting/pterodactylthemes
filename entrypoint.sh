@@ -13,10 +13,11 @@ export INTERNAL_IP
 cfonts "HEXEL-HOSTING" -a center -g blue,white
 neofetch
 
-echo "\033[31m" "DOCKER VIP BY HEXEL - HOSTING"
+echo "DOCKER VIP BY HEXEL - HOSTING" -a center -g blue
 
-echo "\033[33m" "[NODEJS V17 BERHASIL TERINSTALL"
-echo "\033[0;34m" "INCLUDE PACKAGE: YARN, FFMPEG, IMAGEMAGICK, PYTHON, PM2, PNPM, NODEMON, SPEEDTEST"
+echo "[NODEJS V17 BERHASIL TERINSTALL" -a center -g red
+
+echo "INCLUDE PACKAGE: YARN, FFMPEG, IMAGEMAGICK, PYTHON, PM2, PNPM, NODEMON, SPEEDTEST"-a center -g blue
 node -v
 
 # Replace Startup Variables
