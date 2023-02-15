@@ -10,12 +10,13 @@ INTERNAL_IP=$(ip route get 1 | awk '{print $(NF-2);exit}')
 export INTERNAL_IP
 
 # Print Node.js Version
-node -v
-cfonts "HEXEL-HOSTING" -a center -g red,blue,green
+cfonts "HEXEL-HOSTING" -a center -g blue
 neofetch
-echo     "\033[31m" "Jika Ingin Menggunakan Docker Ini Chat Ke saya."
-echo     "\033[32m" "Script Ini Sudah Berjalan"
-echo     "\033[33m" "rules jangan spam bot"
+
+echo "\033[33m [NODEJS V17 BY HEXEL HOSTING"
+echo "\033[0;34m INCLUDE PACKAGE: YARN, FFMPEG, IMAGEMAGICK, PYTHON, PM2, PNPM, NODEMON, SPEEDTEST"
+
+node -v
 
 # Replace Startup Variables
 # shellcheck disable=SC2086
