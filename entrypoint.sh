@@ -15,6 +15,7 @@ export INTERNAL_IP
 # Print Node.js Version
 cfonts "HEXEL-HOSTING" -a center -g blue,white
 neofetch
+clear
 
 echo -e  "${RED}DOCKER VIP BY HEXEL - HOSTING"
 
