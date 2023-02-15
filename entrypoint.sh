@@ -2,10 +2,10 @@
 cd /home/container || exit 1
 
 # Configure colors
-CYAN='\033[0;36m'
-BLUE='\033[0;34m'
-RED='\033[1;31m'
-GREEN='\033[1;32m'
+CYAN='\e[0;36m'
+BLUE= '\e[1;36m'
+RED= '\e[1;31m'
+GREEN= '\e[1;32m'
 RESET_COLOR='\033[0m'
 
 # Set environment variable that holds the Internal Docker IP
@@ -16,9 +16,8 @@ export INTERNAL_IP
 cfonts "HEXEL-HOSTING" -a center -g blue,white
 neofetch
 echo -e "${RED}DOCKER VIP BY HEXEL - HOSTING"
-echo -e "${GREEN}[NODEJS V17 BERHASIL TERINSTALL"
+echo -e "${GREEN}[NODEJS - V17] BERHASIL TERINSTALL"
 echo -e "${BLUE}INCLUDE PACKAGE: YARN, FFMPEG, IMAGEMAGICK, PYTHON, PM2, PNPM, NODEMON, SPEEDTEST"
-
 node -v
 
 # Replace Startup Variables
